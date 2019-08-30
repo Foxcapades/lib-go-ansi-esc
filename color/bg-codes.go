@@ -187,10 +187,10 @@ func BgDarkGreyText(txt string) string {
 	return BgDarkGreyCode() + txt + BgDefaultCode()
 }
 
-func BgCustom8BitText(txt string) string {
-	return BgCustom8BitCode() + txt + BgDefaultCode()
+func BgCustom8BitText(txt string, color uint8) string {
+	return BgCustom8BitCode(color) + txt + BgDefaultCode()
 }
 
-func BgCustom24BitText(txt string) string {
-	return BgCustom24BitCode() + txt + BgDefaultCode()
+func BgCustom24BitText(txt string, r, g, b uint8) string {
+	return BgCustom24BitCode(r, g, b) + txt + BgDefaultCode()
 }
