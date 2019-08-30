@@ -1,0 +1,4 @@
+= ANSI Escape Codes
+
+Simple wrapper functions for dealing with ANSI escape
+sequences in console output.
